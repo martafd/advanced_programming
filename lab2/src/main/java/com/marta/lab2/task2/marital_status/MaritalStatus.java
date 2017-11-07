@@ -5,10 +5,10 @@ import lombok.Getter;
 
 @Getter
 public enum MaritalStatus {
-    SINGLE(1,"холост", "לִמצוֹץ"),
-    MARRIED(2,"женат", "לְהִשתַנוֹת"),
-    DIVORCED(5,"разведен", "לִנשוֹף"),
-    WIDOW(3, "вдовец", "לְכַבֵּס");
+    SINGLE(1,"холост", "יחיד"),
+    MARRIED(2,"женат", "נשוי"),
+    DIVORCED(5,"разведен", "גרושה"),
+    WIDOW(3, "вдовец", "אלמן");
 
     private final int dbCode;
     private final String russianDesc;
