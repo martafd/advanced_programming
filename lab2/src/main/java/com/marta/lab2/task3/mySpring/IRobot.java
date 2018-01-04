@@ -1,6 +1,5 @@
 package com.marta.lab2.task3.mySpring;
 
-
 import factory.InjectRandomInt;
 import lombok.Getter;
 
